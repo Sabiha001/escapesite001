@@ -1,0 +1,79 @@
+
+@font-face {
+  font-family: Brandon_bld;
+  src: url(../fonts/Brandon_bld.ttf);
+}
+@font-face {
+  font-family: Brandon_light;
+  src: url(../fonts/Brandon_light.ttf);
+}
+@font-face {
+  font-family: Brandon_med;
+  src: url(../fonts/Brandon_med.ttf);
+}
+@font-face {
+  font-family: Brandon_reg;
+  src: url(../fonts/Brandon_reg.ttf);
+}
+@font-face {
+  font-family: Cubano-Regular;
+  src: url(../fonts/Cubano-Regular.ttf);
+}
+body{
+	font-family: Brandon_reg;
+	color: #777777;
+}
+/*header start*/
+header{
+	background-image: url(../image/EscapeBanner2.png);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: cover;
+	padding: 40px 0;
+
+}
+
+
+.menu ul li a{
+	transition: .9s;
+	font-family: Brandon_med;
+	padding: 0 15px !important;
+	font-size: 18px;
+	color: #ffffff !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #00e699 !important;
+}
+.content{
+	margin-top: 250px;
+	padding-bottom: 180px;
+}
+.content p{
+	font-family: Brandon_light;
+	font-size: 32px;
+	color: #ffffff !important;
+}
+.content h1{
+	font-family: Brandon_bld;
+	font-size: 69px;
+	color: #ffffff !important;
+	text-transform: uppercase;
+	margin-top: 30px; 
+}
+.content button{
+	margin-top: 100px;
+	font-family: Brandon_bld;
+	font-size: 23px;
+	padding: 10px 70px;
+	border: 2px solid white;
+	border-radius: 3%;
+	background: transparent;
+	color: #ffffff !important;
+}
+.content button:hover{
+	color: #00e699 !important;
+}
+/*header end*/
